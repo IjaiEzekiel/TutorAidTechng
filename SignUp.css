@@ -1,0 +1,144 @@
+body:hover {
+  animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+  from{
+opacity: 0;
+transform:translateX(-10PX);
+}
+to {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+.head {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    display: inlines;
+    }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#logo {
+position: absolute;
+width: 400px;
+height: 160px;
+left: 0px;
+top: 0px
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fefefc;
+  border-radius: 10px;
+  border: 1px solid #3378BD;
+  margin-left: 160px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #fefefc;
+  outline: none;
+}
+
+
+button {
+  background-color: #3378BD;
+  color: #fefefc;
+  padding: 14px;
+  margin: 8px 0;
+  margin-left: 250px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 5px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.signupbtn {
+  float: left;
+  width: 25%;
+}
+
+.container {
+  width: 50%;
+  margin-top: 200px;
+  float: left;
+  margin-left: 25%;
+  margin-right: 0px;
+  color: #3378BD;
+  border-radius: 10px;
+  background-color: #fefefc;
+  margin-bottom: 60px;
+
+}
+.container h1{
+    size: 48px;
+    text-align: center;
+}
+.container p{
+  text-align: center;
+}
+body {
+    background-color: #3378BD;
+    background-image: linear-gradient(#3378BD, #1C1F3F);
+}
+span {
+  position: relative;
+  right: 40px;
+  transform: translate(0%, -50%);
+  
+
+  cursor: pointer;
+}
+.fa {
+  font-size: 20px;
+  color: #3378BD;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.fa-facebook-square {
+  color: blue;
+  background-color: #fefefc;
+}
+.fabicons {
+ margin-left: 43%;
+}
+.fabicons a + a {
+  padding-left: 25px;
+}
+input[type=checkbox] text {
+  color:black;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+#logo {
+    position: absolute;
+    width: 400px;
+    height: 160px;
+    left: 0px;
+    top: 0px
+    
+    }
+    input {
+        width: 20%;
+        border-radius: 26px;
+        border: 1px solid #3378BD;
+        padding: 1% 6%;
+        background-image: url('searchic.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        outline: 0;
+        background-position: 12px;
+        background-size: 16px;
+        margin-left: 400px;
+        margin-top: 50px;
+        margin-bottom: 2000px;
+      }
+      .favicons img{
+          width:30px;
+          margin-right: 0px;
+          margin-left: 50px;
+      }
+      .favicons i{
+          color: #3378BD;
+      }
+      .sidebar {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 16px;
+      }
+      
+      .sidebar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      

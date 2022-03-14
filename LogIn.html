@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="icon" type="image/x-icon" href="favicon.PNG">
+    <link rel="stylesheet" href="SignUp.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="head">
+        <img src="TutorAid Logo 00-13 2.png" alt="logo" id="logo">
+    </section>
+    <section>
+    <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container"><br><br>
+          <h1>Log In to Access Your Dashboard</h1><br><br>
+          <input type="text" placeholder="Enter Email" name="email" required>
+          <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+          <span><i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i></span><br>
+          <input type="checkbox" checked="unchecked" name="remember" style="margin-bottom:15px; margin-left: 160px;">
+          <span style="color:black; margin-left:40px;"> Remember me </span>
+          <a href="#" style="color: #3378BD; margin-left: 40px; text-decoration: none;">Forgot password?</a>        
+          <div class="clearfix"><br><br>
+            <button type="submit" class="signupbtn">Log In</button>
+          </div><br><br>
+          <p> Or Continue with</p><br><br>
+           <div class="fabicons">
+             <a href="#">
+           <i class="fab fa-google fa-2x"></i>
+           </a>
+           <a href="#">
+           <i class="fa fa-facebook-square fa-2x"></i>
+           </a>
+           </div><br><br>
+           <p style="color: black;">Don't have an account? <a href="SignUp.html" style="color: #3378BD;">Sign Up</a></p>
+      
+        </div>
+      </form>
+    </section>
+    <script>
+        var state = false;
+        function toggle(){
+          if(state){
+            document.getElementById(
+            "password").
+            setAttribute("type",
+            "password");
+          state=false;
+
+          }
+          else{
+            document.getElementById(
+            "password").
+            setAttribute("type",
+            "text");
+          state=true;
+          }
+        }
+    </script>
+      
+      </body>
+      </html>
+      
